@@ -1,3 +1,35 @@
+# Swipe 1.0.1
+
+This is a fork of [Brad Birdsalls][1] [Swipe][2]
+
+## License
+
+Copyright © Thomas Appel, licensed [MIT][3] & [GPL][4]
+Original © [Brad Birdsall][1], 2011 (MIT & GPL).
+
+## changelog
+
+1.0.1
+- added amd loading capability (requireJS)
+- some jslinting 
+
+### example (using requirejs)
+
+``` js
+	require(['path/to/swipe'], function (Swipe) {
+		var container = document.getElementById('slider'),
+		options = { … },
+		mySwipe = new Swipe(container, options);
+	});
+``` 
+
+[1]: http://bradbirdsall.com/
+[2]: https://github.com/bradbirdsall/Swipe
+[3]: http://dev.thomas-appel.com/licenses/mit.txt
+[4]: http://dev.thomas-appel.com/licenses/gpl.txt
+
+-----------------------------------------------------------------
+
 # Swipe 1.0
 Swipe is a lightweight mobile slider with **1-to-1** touch movement. For more info read the [blog post](http://pr-i.me/AQL2).
 
